@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #ff4500;
+  margin-bottom: 50px;
+}
+.container-main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  max-width: 900px;
+  margin: 0 20px;
+}
+
+.buttons {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-around;
+}
+
+#buttonsContainer button {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: #2161c2;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 49px -19px rgba(13, 7, 99, 1);
+  -moz-box-shadow: 0px 0px 49px -19px rgba(13, 7, 99, 1);
+  box-shadow: 0px 0px 49px -19px rgba(13, 7, 99, 1);
+}
+.container-side button {
+  flex-grow: 1;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: green;
+  color: white;
+}
+
+#buttonsContainer button:hover {
+  background-color: #ff6347;
+}
+
+.container-main #storyOutput {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ff4500;
+  font-size: 30px;
+  font-weight: 900;
+  background-color: #bccee8;
+  padding: 20px 0;
+  border: 2px solid #2161c2;
+  border-radius: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.word-categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.word-category {
+  text-align: center;
+  flex-grow: 2;
+  margin: 20px 50px;
+}
+
+.word-category h3 {
+  color: #ff4500;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.container-side {
+  margin: 30px;
+}
+
+#resetButton {
+  background-color: #ff0000;
+}

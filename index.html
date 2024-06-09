@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>See 'N' Say Storymaker</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <h1>See 'N' Say Storymaker</h1>
+    <div class="container-main">
+      <div class="buttons" id="buttonsContainer">
+        <button data-type="noun">Noun</button>
+        <button data-type="verb">Verb</button>
+        <button data-type="adjective">Adjective</button>
+        <button data-type="secondNoun">Second Noun</button>
+        <button data-type="place">Place</button>
+      </div>
+
+      <div class="word-categories">
+        <div class="word-category" id="nounsCategory">
+          <!-- <h3>Nouns</h3> -->
+          <ul id="nounsList"></ul>
+        </div>
+        <div class="word-category" id="verbsCategory">
+          <!-- <h3>Verbs</h3> -->
+          <ul id="verbsList"></ul>
+        </div>
+        <div class="word-category" id="adjectivesCategory">
+          <!-- <h3>Adjectives</h3> -->
+          <ul id="adjectivesList"></ul>
+        </div>
+        <div class="word-category" id="secondNounsCategory">
+          <!-- <h3>Second Nouns</h3> -->
+          <ul id="secondNounsList"></ul>
+        </div>
+        <div class="word-category" id="placesCategory">
+          <!-- <h3>Places</h3> -->
+          <ul id="placesList"></ul>
+        </div>
+      </div>
+      <h2>THE STORY:</h2>
+      <p id="storyOutput"></p>
+    </div>
+    <div class="container-side">
+      <button id="speakButton">Speak</button>
+      <button id="randomStoryButton">Generate Random Story</button>
+      <button id="resetButton">Reset</button>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
